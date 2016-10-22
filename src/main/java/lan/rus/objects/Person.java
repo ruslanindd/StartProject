@@ -20,6 +20,7 @@ public class Person {
         Utils.print(getName());
         Utils.print(String.valueOf(getAge()));
         Utils.print(getAdress());
+        Utils.print("============================");
     }
 
     public String getName() {

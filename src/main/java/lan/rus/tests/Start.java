@@ -12,11 +12,14 @@ public class Start {
         Utils.print("Start test");
 
         Person person_1 = new Person("Ruslan",39,"Vakyl 2");
-        Person person_2 = new Person("Katya",9,"Vakyl 2");
+        Person person_2 = new Person("Galina",35,"Vakyl 2");
+        Person person_3 = new Person("Katya",9,"Vakyl 2");
 
         person_1.print();
 
         person_2.print();
+
+        person_3.print();
 
 
         Utils.print("Stop test test");
