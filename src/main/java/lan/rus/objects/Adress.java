@@ -1,7 +1,7 @@
 package lan.rus.objects;
 
 /**
- * Created by ruslan on 22.10.2016.
+ * Created by ruslan second on 22.10.2016.
  */
 public class Adress {
     private String street;
