@@ -1,16 +1,15 @@
 package lan.rus.objects;
 
-import javax.rmi.CORBA.Util;
-
 /**
  * Created by ruslan on 22.10.2016.
  */
+
 public class Person {
     private String name;
     private int age;
-    private String adress;
+    private Adress adress;
 
-    public Person(String name,int age,String adress){
+    public Person(String name,int age,Adress adress){
         setName(name);
         setAge(age);
         setAdress(adress);
@@ -19,31 +18,32 @@ public class Person {
     public void print(){
         Utils.print(getName());
         Utils.print(String.valueOf(getAge()));
-        Utils.print(getAdress());
+       getAdress().print();
         Utils.print("============================");
     }
 
-    public String getName() {
+    private String getName() {
         return name;
     }
 
-    public void setName(String name) {
+    private void setName(String name) {
         this.name = name;
     }
 
-    public int getAge() {
+    private int getAge() {
         return age;
     }
 
-    public void setAge(int age) {
+    private void setAge(int age) {
         this.age = age;
     }
 
-    public String getAdress() {
+
+    public Adress getAdress() {
         return adress;
     }
 
-    public void setAdress(String adress) {
+    public void setAdress(Adress adress) {
         this.adress = adress;
     }
 }
