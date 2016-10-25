@@ -20,6 +20,10 @@ public class Person {
         setName(name);
         setAge(age);
         setAdress(adress);
+        setAdress(adress);
+        setAdress(adress);
+        setAdress(adress);
+        setAdress(adress);
 
     }
 
